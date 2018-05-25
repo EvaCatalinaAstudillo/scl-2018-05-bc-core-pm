@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Cifrado Cesar</title>
 </head>
+
 <body>
+  <h1 id="name"> Bienvenid@s </h1>
+  <div>
+    <input type="text" id="user_name" value=" ">
+  </div>
 
-  <div id="root"></div>
+  <div class="button">
+    <button onclick="introducirNombre()">Ingresa tu Nombre</button>
 
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+    <section class="portada">
+      <header>
+        <h1>Cifrado César</h1>
+        
+        <div class= "desplazamiento">
+        <input type="text"id="desplazamiento"placeholder="Número de desplazamiento">
+        <button onclick="desplazamiento()"></button>
+
+        <div class="button-cifrar" >
+        <input type="text" id="input" placeholder="Texto a cifrar">
+          <button onclick="cifrar()">Cifrar Texto</button>
+
+          <div class= "buttond-cifrar">
+          <input type="text" id="output" placeholder="Aqui aparecera el texto cifrado">
+          <button onclick="descifrar()">Descifrar Texto</button>
+
+        </div>
+        <script src="index.js"></script>
+        <script src="ciper.js"></script>
 </body>
+
 </html>
