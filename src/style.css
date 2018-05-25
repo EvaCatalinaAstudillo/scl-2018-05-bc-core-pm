@@ -1,1 +1,39 @@
-/* Acá va tu código */
+body {
+    background: url(http://www.corodecamaradeextremadura.es/img/fondo-otono.jpg);
+    padding: center;
+     display: block;
+     text-align: center;
+  }
+  
+  
+  #desplazamiento{
+  
+    width: 40%;
+  position: static;
+  height: 20vh;
+  margin-bottom: 10;
+  
+  
+  }
+   #input {
+     
+      width: 40%;
+      position: static;
+      height: 20vh;
+      margin-bottom: 10%;
+      
+   }
+      
+  
+  #output {
+    
+  width: 40%;
+  position: static;
+  height: 20vh;
+  margin-bottom: 10%;
+  }
+  
+  
+  
+  
+  
