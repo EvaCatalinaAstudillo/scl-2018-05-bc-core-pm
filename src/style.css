@@ -15,25 +15,13 @@ body {
   
   
   }
-   #input {
-     
-      width: 40%;
       position: static;
       height: 20vh;
       margin-bottom: 10%;
       
    }
-      
-  
-  #output {
-    
   width: 40%;
   position: static;
   height: 20vh;
   margin-bottom: 10%;
   }
-  
-  
-  
-  
-  
