@@ -28,12 +28,12 @@
           <textarea readonly class="textresultados" id="caja1" placeholder="Tu resultado se mostrara aqui"></textarea>
         </div>
 
-        <div id="Caja2">
+        <div id="caja2">
           <span class="title-textarea">Texto a Cifrar:</span>
           <br>
           <textarea class="textresultados" id="encriptarTexto" placeholder="Ingresa texto:"></textarea>
           <br>
-          <input type="submit" onclick="encode()" value="Cifrar">
+          <input type="button" id="btnOne">
         </div>
 
         <div id="caja3">
@@ -41,7 +41,7 @@
           <br>
           <textarea class="textresultados" id="desencriptarTexto" placeholder="Ingresa texto a desencriptar:"></textarea>
           <br>
-          <input type="submit" onclick="decode()" value="Descifrar">
+          <input type="button" id="btnTwo">
         </div>
   </div>
 
@@ -50,12 +50,10 @@
     <br>
     <input type="number" id="offset" min="0" value="0" class="textresultados">
     <br>
-    <input type="submit" onclick="offset()" value="Obtener desplazamiento">
-    <br>
   </div>
   </div>
   <script src="index.js"></script>
-  <!--<script src="ciper.js"></script>-->
+  <script src="cipher.js"></script>
 </body>
 
 </html>

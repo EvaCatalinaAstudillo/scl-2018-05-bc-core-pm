@@ -4,24 +4,6 @@ body {
      display: block;
      text-align: center;
   }
-  
-  
-  #desplazamiento{
-  
-    width: 40%;
-  position: static;
-  height: 20vh;
-  margin-bottom: 10;
-  
-  
-  }
-      position: static;
-      height: 20vh;
-      margin-bottom: 10%;
-      
-   }
-  width: 40%;
-  position: static;
-  height: 20vh;
-  margin-bottom: 10%;
+  .title-textarea{
+    color:whitesmoke;
   }
