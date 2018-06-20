@@ -3,9 +3,7 @@ Introducción
 El método Cifrado César es la médula de este sitio.
 
 Con él, podremos ingresar texto y dependera del número ingresado, ver cuantos espacios nos dezplazaremos
-
-
-//Enlace a la aplicación//
+[file:///C:/Users/Eva/Desktop/LABORATORIA/proyectos/scl-2018-05-bc-core-pm/src/index.html]
 
 Qué es el cifrado César
 
