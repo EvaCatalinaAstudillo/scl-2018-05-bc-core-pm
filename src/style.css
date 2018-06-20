@@ -1,9 +1,91 @@
+h1 {
+  font-family: "Roboto";
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30pt;
+  border-color: whitesmoke;
+}
+p{
+  font-family: "Roboto";
+  color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  width: 450px;
+  background-image: url(sky.jpg);
+}
+  
+
+
+.button {
+  font-family: "Roboto";
+  background-image: url(sky.jpg);
+border: none;
+border-radius: 3px;
+padding: 10px 8px;
+color: white;
+font-size: 16px;
+  border-style: dashed;
+  border: 1px solid #eeeeee;
+  display: inline;
+}
+
+.button:hover {
+font-family: "Roboto";
+background: blanchedalmond;
+border: none;
+border-radius: 3px;
+padding: 10px 8px;
+color: black;
+font-size: 16px;
+border-style: dashed; 
+border: 1px solid #eeeeee;
+display: inline;
+
+}
+
+#escribirmensaje {
+  font-family: "Roboto";
+  border: 1px solid;
+  color: black;
+  font-size: 16px;
+  width: 300px;
+  height: 80px; 
+  margin: 20px;
+  background-color: #75AF96;
+
+}
+
+
+.estilocifrado {
+  font-family: "Share Tech";
+  color: #f3ecc8;
+  font-size: 24px;
+  padding: 10px 8px;
+  
+}
+
+#ingresanumero {
+  width: 50px; 
+  font-size: 30px;
+  margin: 8px;
+  color: black;
+  background-color: #669999;
+
+}
+
+.cajadetexto {
+  background-image: url(sky.jpg);
+  width: 450px;
+  height: 120px; 
+  border-style: groove;
+  border-color:#040b1f;
+  border-radius: 20px;
+}
 body {
-    background: url(http://www.corodecamaradeextremadura.es/img/fondo-otono.jpg);
-    padding: center;
-     display: block;
-     text-align: center;
-  }
-  .title-textarea{
-    color:whitesmoke;
-  }
+  background-image: url(sky.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
